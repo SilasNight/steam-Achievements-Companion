@@ -54,7 +54,7 @@ class Main:
         self.button_sensitive_load.grid(row=8,column=0,sticky="we",columnspan=3)
         self.button_sensitive_save.grid(row=9,column=0,sticky="we",columnspan=3)
 
-        self.canvas_controls.grid(row=0,coloum=0,rowspan=10)
+        self.canvas_controls.grid(row=0,column=0,rowspan=10)
 
         self.window.mainloop()
 
