@@ -68,14 +68,14 @@ class Main:
         self.window.mainloop()
 
     def todo_button(self):
-        pass
+        pass #TODO
 
     def get_sensitive(self):
         self.steam_api_key = self.api_key_entry.get()
         self.steam_user_id = self.steam_id_entry.get()
 
     def load_games(self):
-        pass
+        pass #TODO
 
     def load_sensitive(self):
         with open(self.filename_sensitive,"r") as file:
